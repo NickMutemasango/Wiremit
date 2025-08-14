@@ -1,0 +1,18 @@
+import SignupForm from "../components/auth/SignupForm";
+import { redirect } from "next/navigation";
+import { auth } from "@/config/firebase";
+import { getCurrentUser } from "../../lib/helpers";
+
+export default async function SignupPage() {
+  const user = await getCurrentUser();
+
+  if (user) {
+    redirect("/dashboard");
+  }
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <SignupForm />
+    </div>
+  );
+}

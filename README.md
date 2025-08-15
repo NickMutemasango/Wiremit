@@ -39,8 +39,8 @@ NEXT_PUBLIC_FIREBASE_APP_ID="1:154590709281:web:93c2ab604921c0ca408560"
 
 3. Install dependencies:
 
-```bash
 npm install
 
-4.Start the project
+4. Start the project
+
 npm run dev

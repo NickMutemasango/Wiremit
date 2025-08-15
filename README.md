@@ -26,7 +26,7 @@ A web app for Zimbabwean parents to send money to their children studying abroad
 - React Slick for carousel
 - React Hot Toast for notifications
 
-## Getting Started For Windows
+## Getting Started 
 
 1. Clone the repository
 2. Install dependencies:

@@ -11,7 +11,7 @@ A web app for Zimbabwean parents to send money to their children studying abroad
   - Transaction history with pagination
 - Mobile responsive design with Tailwind CSS
 - TypeScript for type safety
-- File-based routing with Next.js
+
 
 ## Env file
 - To avoid creating environmental file and adding credentials, I have uploaded the environment file to github. However, for security reasons, the file shouldn't be exposed there.
